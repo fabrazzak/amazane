@@ -1,0 +1,19 @@
+.header{
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 150px;
+    height: 80px;
+    align-items: center;
+    }
+    .header ul li {
+        display: inline;
+
+    }
+    .header ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 17px;
+        margin-left: 36px;
+
+    }
