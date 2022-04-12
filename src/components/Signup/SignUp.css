@@ -1,0 +1,11 @@
+.form-section-signup {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  height: 740px;
+  padding: 40px;
+  border: 1px solid #95a0a7;
+  border-radius: 8px;
+  margin-top: 20px;
+}

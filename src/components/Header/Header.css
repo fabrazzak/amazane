@@ -7,13 +7,30 @@
     align-items: center;
     }
     .header ul li {
-        display: inline;
+        display: flex ;
 
     }
-    .header ul li a{
+    .list-iteam{
+        display: flex;
+    }
+    .header ul li {
         color: white;
         text-decoration: none;
         font-size: 17px;
         margin-left: 36px;
+        
 
+    }
+
+
+    /* order page css  */
+    .order-procced{
+        margin-left: 40px;
+        background: none;
+        border:2px solid black;
+        font-size: 20px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        font-weight: 600;
+        cursor: pointer;
     }

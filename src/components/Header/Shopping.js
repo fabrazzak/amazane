@@ -1,18 +1,15 @@
 import React, { useEffect, useState } from 'react';
+import useProducts from '../../useProducts/useProducts';
 import{addToDb, getStored, getStoredCart} from '../../utilities/fakedb';
 import Cart from './Cart';
 import Products from './Products';
 import './Shopping.css'
 
 const Shopping = () => {
-
-    const [products,setProducts]=useState([]);
+    const [products,setProducts]=useProducts();
+   
     const [cart,setCart]=useState([]);
-    useEffect(()=>{
-        fetch('https://raw.githubusercontent.com/ProgrammingHero1/ema-john-resources/main/fakeData/products.json')
-        .then(res => res.json())
-        .then( data => setProducts(data));
-    },[])
+    
        useEffect(()=>{
            const storedCart=getStoredCart();
            const saveCart=[];
@@ -46,6 +43,7 @@ const Shopping = () => {
         setCart(newCart);
       addToDb(selectedProduct.id);
     }
+   
     return (
         <div className='shopping-cart'>
             <div className='products'>
