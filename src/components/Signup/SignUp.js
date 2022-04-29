@@ -14,7 +14,7 @@ const SignUp = () => {
    
 
     const [createUserWithEmailAndPassword,user] = useCreateUserWithEmailAndPassword(auth);
-    const [sendEmailVerification, sending] = useSendEmailVerification(auth);
+    const [sendEmailVerification] = useSendEmailVerification(auth);
 
     const handleOnBlurEmail=event=>{
         setEmail(event.target.value);

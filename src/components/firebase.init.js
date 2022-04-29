@@ -6,12 +6,12 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyDJtakPrKMW8KCZq7DxQ50v3q0hm1V-Zoo",
-    authDomain: "amazane-a0272.firebaseapp.com",
-    projectId: "amazane-a0272",
-    storageBucket: "amazane-a0272.appspot.com",
-    messagingSenderId: "612635625156",
-    appId: "1:612635625156:web:3350956c0ad6f01a512b91"
+    apiKey: "AIzaSyBgSDEO8T9VyPVF02guPzd-td3p8u_t2LE",
+    authDomain: "private-route-app.firebaseapp.com",
+    projectId: "private-route-app",
+    storageBucket: "private-route-app.appspot.com",
+    messagingSenderId: "889861186574",
+    appId: "1:889861186574:web:ec17182a08b1f39ae8485f"
 };
 
 // Initialize Firebase

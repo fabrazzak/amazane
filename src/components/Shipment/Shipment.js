@@ -51,7 +51,7 @@ const Shipment = () => {
                     </div>
                     <div className="input-groupe">
                         <label className='input-lebel' htmlFor="email">Email</label>
-                        <input value={user?.email} readOnly  className='input-filed' type="email" name="email" id="" />
+                        <input readOnly  className='input-filed' type="email" name="email" id="" />
                     </div>
 
                     <div className="input-groupe">

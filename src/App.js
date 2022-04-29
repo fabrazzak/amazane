@@ -1,4 +1,4 @@
-
+import React from 'react'
 import './App.css';
 import Header from './components/Header/Header';
 import Shopping from './components/Header/Shopping';
@@ -25,9 +25,9 @@ function App() {
         <Route path='order-review' element={<OrderReview></OrderReview>}></Route>
         <Route path='manage-inventory' element={
 
-          <RequireAuth>
+       
             <ManageInventory></ManageInventory>
-          </RequireAuth>
+         
         }></Route>
         <Route path='shipment' element={
           <RequireAuth>
